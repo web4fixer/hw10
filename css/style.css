@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.wrapper{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.row-first{
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+.column-first{
+	min-height: 200px;
+	background-color: #666666;
+	width: 48.39%;
+	float: left;
+}
+.column-second{
+	min-height: 200px;
+	background-color: #666666;
+	width: 48.39%;
+	float: right;
+}
+.row-second{
+	margin-bottom: 45px;
+}
+.column-third{
+	min-height: 200px;
+	width: 100%;
+	background-color: #ff0000;
+}
+.row-third{
+	margin-bottom: 55px;
+}
+.column-fourth{
+	min-height: 150px;
+	width: 30.65%;
+	background-color: #ffff00;
+	float: left;
+	margin-right: 3.63%;
+}
+.column-fifth{
+	min-height: 150px;
+	width: 30.65%;
+	background-color: #ffff00;
+	float: left;
+
+}
+.column-sixth{
+	min-height: 150px;
+	width: 30.65%;
+	background-color: #ffff00;
+	float: left;
+	margin-left:3.63%; 
+
+}
+.column-seventh{
+	min-height: 350px;
+	width: 22.58%;
+	background-color: #2579bf;
+	float: left;
+	margin-right: 3.06%;
+
+}
+.column-eighth{
+	min-height: 350px;
+	width: 22.58%;
+	background-color: #2579bf;
+	float: left;
+	margin-right: 3.06%;
+
+}
+.column-ninth{
+	min-height: 350px;
+	width: 22.58%;
+	background-color: #2579bf;
+	float: left;
+	margin-right: 3.06%;
+}
+.column-tenth{
+	min-height: 350px;
+	width: 22.58%;
+	background-color: #2579bf;
+	float: left;
+}
+@media screen and (min-width:480px) and (max-width:800px) {
+.column-first,.column-second{
+width: 100%;
+min-height: 96px;
+margin-bottom: 21px;
+}
+.row-first{
+	margin-bottom: 0;
+}
+.column-third{
+	width: 100%;
+	min-height: 96px;
+}
+.column-fourth {
+	width: 47.52%;
+	min-height: 88px;
+	margin-bottom: 36px;
+	
+}
+.column-fifth{
+	width: 47.52%;
+	min-height: 88px;
+	margin-bottom: 36px;
+	float: right;
+}
+.column-sixth {
+	width: 100%;
+	min-height: 96px;
+	margin-left: 0;
+	margin-bottom: 33px;
+}
+.row-third{
+	margin-bottom: 0;
+}
+.column-seventh,.column-eighth,.column-ninth,.column-tenth {
+	width: 47.3%;
+	min-height:79px;
+	margin-bottom: 21px;
+	margin-right: 0;
+}
+.column-eighth,.column-tenth {
+float:right; 
+}
+.row-fourth :last-child{
+margin-bottom: 0;
+}
+
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+.row-first,.row-second,.row-third{
+	margin: 0;
+}
+.column-first,
+.column-second,
+.column-third,
+.column-fourth,
+.column-fifth,
+.column-sixth,
+.column-seventh,
+.column-eighth,
+.column-ninth,
+.column-tenth {
+width: 100%;
+min-height: 117px;
+margin: 0 0 26px;
+float: left;
+
+}
+.row-fourth :last-child{
+margin-bottom: 0;
+}
+
+	}
